@@ -11,3 +11,13 @@
 * Si modifichino similmente le classi `Calculator` e `Smartphone`:
     - Si rendano privati tutti i campi
     - Si introducano selettori opportuni per recuperare o modificare le proprietà di interesse
+
+nella build.gradle.kts mettere il package, in questo caso si prende dalla classe TestAllClasses (visto che è main). Poi nel terminale fare sempre gradlew.bat run
+
+FASE COMMIT:
+- git commit
+- scegliamo su quale file lavorare con git add (esempio: git add build.gradle.kts)
+- git status
+- a questo punto non verrà piu visto il file  scelto
+- git commit -m "Update build file"
+- git push
