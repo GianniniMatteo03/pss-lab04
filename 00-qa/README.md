@@ -3,7 +3,7 @@
 ## Fase 1
 
 * Analizzare la classe `cat`.
-* Verificare se la classe è valida, ad esempio eseguendo la build con gradle e verificando che un file `.class` viene effetivamente generato.
+* Verificare se la classe è valida, ad esempio eseguendo la build con gradle e verificando che un file `.class` viene effetivamente generato. Entri nella cartella dell'esercizio con cd e poi scrivi: gradlewbatcompileJava
     * La classe può essere effettivamente utilizzata senza problemi...
 * Tuttavia l’utilizzo delle corrette convenzioni è stato messo completamente da parte. Di conseguenza il codice è difficile da leggere e da capire.
 ---
@@ -20,3 +20,4 @@
 * Solo una volta sistemata la classe, aggiungere [Checkstyle](https://unibo-lptsi-pss.github.io/07a-codestyle/#/15) al progetto, e verificare se sono state rispettate tutte le convenzioni;
   * Si possono utilizzare i file forniti in questo repository (cartella `checkstyle-files`) ;
   * Se i controlli non passano, capire quali sono i problemi e correggerli.
+Quindi nel file build.gradle.kts aggiungere it.unibo.qa.Cat e nel terminale fare gradlew.bat  run
