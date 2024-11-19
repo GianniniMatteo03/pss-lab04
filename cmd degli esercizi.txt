@@ -1,0 +1,1128 @@
+Microsoft Windows [Versione 10.0.19045.5073]
+(c) Microsoft Corporation. Tutti i diritti sono riservati.
+
+C:\Users\Windows\Desktop\pss-lab04>code .
+
+C:\Users\Windows\Desktop\pss-lab04>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Windows\Desktop\pss-lab04>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Windows\Desktop\pss-lab04>gradle -q help
+"gradle" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04>gradle run
+"gradle" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04>build.gradle.kts
+"build.gradle.kts" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04>build gradle
+"build" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04>build gradle.kts
+"build" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04>./gradlew.bat compileJava
+"." non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04>./gradlew.bat compileJava
+
+C:\Users\Windows\Desktop\pss-lab04>cd 00-qa
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>dir
+ Il volume nell'unità C è OS
+ Numero di serie del volume: 6C3A-E72C
+
+ Directory di C:\Users\Windows\Desktop\pss-lab04\00-qa
+
+29/10/2024  09:28    <DIR>          .
+29/10/2024  09:28    <DIR>          ..
+29/10/2024  10:18               277 build.gradle.kts
+29/10/2024  09:28    <DIR>          gradle
+29/10/2024  09:28             8.692 gradlew
+29/10/2024  09:28             2.868 gradlew.bat
+29/10/2024  09:28           242.625 Kiri-the.korat.jpg
+29/10/2024  10:15             1.459 README.md
+29/10/2024  09:28    <DIR>          src
+               5 File        255.921 byte
+               4 Directory  110.922.842.112 byte disponibili
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>./gradlew.bat compileJava
+"." non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>gradlew.bat compileJava
+Downloading https://services.gradle.org/distributions/gradle-8.4-bin.zip
+............10%............20%.............30%............40%.............50%............60%.............70%............80%.............90%............100%
+
+Welcome to Gradle 8.4!
+
+Here are the highlights of this release:
+ - Compiling and testing with Java 21
+ - Faster Java compilation on Windows
+ - Role focused dependency configurations creation
+
+For more details see https://docs.gradle.org/8.4/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\cat.java:3: error: class Cat is public, should be declared in a file named Cat.java
+public class Cat {
+       ^
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\cat.java:33: error: cannot find symbol
+public int hasSameColor( cat  cat ){
+                         ^
+  symbol:   class cat
+  location: class Cat
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\cat.java:47: error: cannot find symbol
+    cat cat = new Cat(
+    ^
+  symbol:   class cat
+  location: class Cat
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\cat.java:52: error: non-static method Meow() cannot be referenced from a static context
+    System.out.println(Cat.Meow());}
+                          ^
+4 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 3m 10s
+1 actionable task: 1 executed
+
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\Cat.java:52: error: non-static method Meow() cannot be referenced from a static context
+    System.out.println(Cat.Meow());}
+                          ^
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\Cat.java:52: error: non-static method Meow() cannot be referenced from a static context
+    System.out.println(Cat.Meow());}
+                          ^
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+1 actionable task: 1 executed
+
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\Cat.java:47: error: cannot find symbol
+    Cat cat = new cat(
+                  ^
+  symbol:   class cat
+  location: class Cat
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+1 actionable task: 1 executed
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+
+C:\Users\Windows\Desktop\pss-lab04\00-qa>cgradlew.bat compileJava
+"cgradlew.bat" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\00-qa\src\main\java\it\unibo\qa\Cat.java:47: error: cannot find symbol
+    Cat cat = new cat(
+                  ^
+  symbol:   class cat
+  location: class Cat
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed
+
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>gradlew.bat compileJava
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 up-to-date
+
+> Task :run
+Meow, meow, I am Kiri, hear me purr, In this feline world, I'm the star, that's for sure. With whiskers long and fur so sleek, I'm here to share my story, so take a peek!
+
+BUILD SUCCESSFUL in 4s
+2 actionable tasks: 2 executed
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>
+C:\Users\Windows\Desktop\pss-lab04\00-qa>cd..
+
+C:\Users\Windows\Desktop\pss-lab04>cd 01-encapsulation
+
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation\src\main\java\it\unibo\encapsulation\Calculator.java:14: error: cannot assign a value to final variable lastResult
+        this.lastResult = val;
+            ^
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation\src\main\java\it\unibo\encapsulation\Calculator.java:15: error: cannot assign a value to final variable operationsPerformed
+        this.operationsPerformed++;
+            ^
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation\src\main\java\it\unibo\encapsulation\TestAllClasses.java:5: error: constructor Calculator in class Calculator cannot be applied to given types;
+        final Calculator calc = new Calculator();
+                                ^
+  required: int,double
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+3 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 5s
+1 actionable task: 1 executed
+
+
+> Task :compileJava FAILED
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation\src\main\java\it\unibo\encapsulation\Calculator.java:14: error: cannot assign a value to final variable lastResult
+        this.lastResult = val;
+            ^
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation\src\main\java\it\unibo\encapsulation\Calculator.java:15: error: cannot assign a value to final variable operationsPerformed
+        this.operationsPerformed++;
+            ^
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>gradlew.bat run
+
+> Task :run FAILED
+Errore: impossibile trovare o caricare la classe principale  it.unibo.encapsulation.TestAllClasses
+Causato da: java.lang.ClassNotFoundException:  it.unibo.encapsulation.TestAllClasses
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command 'C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+2 actionable tasks: 2 executed
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>gradlew.bat run
+
+> Task :run
+1+2=3.0
+operations performed: 1
+last result3.0
+
+-1-(+2)=-3.0
+operations performed: 2
+last result-3.0
+
+8*3=24.0
+operations performed: 3
+last result24.0
+
+8/4=2.0
+operations performed: 4
+last result2.0
+
+n CPU(s): 8
+RAM amount: 8192
+SD size: 1024
+brand: HTC
+model: One
+hasGPS: true
+has3G: true
+hasNFC: true
+
+n CPU(s): 4
+RAM amount: 2048
+SD size: 8192
+brand: Samsung
+model: Galaxy Note 3
+hasGPS: true
+has3G: true
+hasNFC: true
+
+
+BUILD SUCCESSFUL in 3s
+2 actionable tasks: 2 executed
+
+> Task :run
+1+2=3.0cting to Daemon
+operations performed: 1
+last result3.0
+
+-1-(+2)=-3.0
+operations performed: 2
+last result-3.0
+
+8*3=24.0
+operations performed: 3
+last result24.0
+
+8/4=2.0
+operations performed: 4
+last result2.0
+
+n CPU(s): 8
+RAM amount: 8192
+SD size: 1024
+brand: HTC
+model: One
+hasGPS: true
+has3G: true
+hasNFC: true
+
+n CPU(s): 4
+RAM amount: 2048
+SD size: 8192
+brand: Samsung
+model: Galaxy Note 3
+hasGPS: true
+has3G: true
+hasNFC: true
+
+
+BUILD SUCCESSFUL in 2s
+2 actionable tasks: 2 executed
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>gradle.bat run
+"gradle.bat" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+
+> Task :run
+1+2=3.0cting to Daemon
+operations performed: 1
+last result3.0
+
+-1-(+2)=-3.0
+operations performed: 2
+last result-3.0
+
+8*3=24.0
+operations performed: 3
+last result24.0
+
+8/4=2.0
+operations performed: 4
+last result2.0
+
+n CPU(s): 8
+RAM amount: 8192
+SD size: 1024
+brand: HTC
+model: One
+hasGPS: true
+has3G: true
+hasNFC: true
+
+n CPU(s): 4
+RAM amount: 2048
+SD size: 8192
+brand: Samsung
+model: Galaxy Note 3
+hasGPS: true
+has3G: true
+hasNFC: true
+
+
+BUILD SUCCESSFUL in 2s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+> Task :run
+1+2=3.0cting to Daemon
+operations performed: 1
+last result3.0
+
+Operations performed (getter): 1
+Last result (getter): 3.0
+-1-(+2)=-3.0
+operations performed: 2
+last result-3.0
+
+8*3=24.0
+operations performed: 3
+last result24.0
+
+8/4=2.0
+operations performed: 4
+last result2.0
+
+n CPU(s): 8
+RAM amount: 8192
+SD size: 1024
+brand: HTC
+model: One
+hasGPS: true
+has3G: true
+hasNFC: true
+
+n CPU(s): 4
+RAM amount: 2048
+SD size: 8192
+brand: Samsung
+model: Galaxy Note 3
+hasGPS: true
+has3G: true
+hasNFC: true
+
+
+BUILD SUCCESSFUL in 2s
+2 actionable tasks: 2 executed
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+        modified:   build.gradle.kts
+        modified:   src/main/java/it/unibo/encapsulation/Calculator.java
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>dir
+ Il volume nell'unità C è OS
+ Numero di serie del volume: 6C3A-E72C
+
+ Directory di C:\Users\Windows\Desktop\pss-lab04\01-encapsulation
+
+29/10/2024  11:16    <DIR>          .
+29/10/2024  11:16    <DIR>          ..
+29/10/2024  11:16    <DIR>          .gradle
+29/10/2024  11:16    <DIR>          build
+29/10/2024  11:20               289 build.gradle.kts
+29/10/2024  09:28    <DIR>          gradle
+29/10/2024  09:28             8.692 gradlew
+29/10/2024  09:28             2.868 gradlew.bat
+29/10/2024  11:27               874 README.md
+29/10/2024  09:28    <DIR>          src
+               4 File         12.723 byte
+               6 Directory  110.683.877.376 byte disponibili
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+        modified:   build.gradle.kts
+        modified:   src/main/java/it/unibo/encapsulation/Calculator.java
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add build.gradle.kts
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   build.gradle.kts
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+        modified:   src/main/java/it/unibo/encapsulation/Calculator.java
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m 'Update build file'
+error: pathspec 'build' did not match any file(s) known to git
+error: pathspec 'file'' did not match any file(s) known to git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master 4611668] Update build file
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git log
+commit 4611668da1882c5e089849c3ff55e519a550ed1d (HEAD -> master)
+Author: GianniniMatteo <matteogiannini294@gmail.com>
+Date:   Tue Oct 29 12:02:31 2024 +0100
+
+    Update build file
+
+commit abf65a393a15a8f41fce5189cd84260a26b52c75 (origin/master, origin/HEAD)
+Author: Angelo Filaseta <filaseta.angelo@gmail.com>
+Date:   Mon Oct 28 17:23:04 2024 +0100
+
+    typo
+
+commit 98ae1e5ed3e79dd205ab6f0babf4afd233858ef0
+Author: AngeloFilaseta <filaseta.angelo@gmail.com>
+Date:   Mon Oct 28 12:00:21 2024 +0100
+
+    remove useless idea files
+
+commit c414d26af504a06f87de14ccae7c566dbeaf2118
+Author: AngeloFilaseta <filaseta.angelo@gmail.com>
+Date:   Mon Oct 28 11:58:13 2024 +0100
+
+    better readme
+
+commit af036bd281586552bf15ae585519f000049cd4d0
+Author: AngeloFilaseta <filaseta.angelo@gmail.com>
+Date:   Mon Oct 28 11:55:15 2024 +0100
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+        modified:   src/main/java/it/unibo/encapsulation/Calculator.java
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add src/main/java/it/unibo/encapsulation/Calculator.java
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/main/java/it/unibo/encapsulation/Calculator.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m 'Update build file'
+error: pathspec 'build' did not match any file(s) known to git
+error: pathspec 'file'' did not match any file(s) known to git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master 0b7e2d2] Update build file
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/main/java/it/unibo/encapsulation/TestAllClasses.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master a5b76be] Update build file
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote -v
+origin  https://github.com/gianninimatteo/pss-lab04.git (fetch)
+origin  https://github.com/gianninimatteo/pss-lab04.git (push)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote set-url origin https://github.com/TUO-USERNAME/pss-lab04.git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote set-url origin https://github.com/TUO-USERNAME/pss-lab04.git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote set-url origin https://github.co^Z^Z^Z^Z^Z/pss-lab04.git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote set-url origin https://github.com/gianninimatteo/pss-lab04.git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>https://github.com/gianninimatteo/pss-lab04.git
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>https://github.com/gianninimatteo/pss-lab04.git
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>https://github.com/gianninimatteo/pss-lab04.git
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote -v
+origin  https://github.com/gianninimatteo/pss-lab04.git (fetch)
+origin  https://github.com/gianninimatteo/pss-lab04.git (push)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push origin master
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>https://github.com/unibo-lptsi-pss/pss-lab04.git
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push origin master
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>https://github.com/GianniniMatteo03/pss-lab04.git
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global user.name
+GianniniMatteo
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global user.email
+matteogiannini294@gmail.com
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global user.name
+GianniniMatteo
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global user.email
+matteogiannini294@gmail.com
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global user.name "GianniniMatteo"
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global user.email "matteogiannini294@gmail.com"
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+info: please complete authentication in your browser...
+remote: Permission to gianninimatteo/pss-lab04.git denied to GianniniMatteo03.
+fatal: unable to access 'https://github.com/gianninimatteo/pss-lab04.git/': The requested URL returned error: 403
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+fatal: User canceled device code authentication
+Username for 'https://github.com': GianniniMatteo03
+Password for 'https://GianniniMatteo03@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/gianninimatteo/pss-lab04.git/'
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git config --global --unset credential.helper
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git remote set-url origin https://github.com/GianniniMatteo03/pss-lab04.git
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+fatal: User canceled device code authentication
+Username for 'https://github.com': GianniniMatteo03
+Password for 'https://GianniniMatteo03@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GianniniMatteo03/pss-lab04.git/'
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+fatal: User canceled device code authentication
+Username for 'https://github.com': GianniniMatteo03
+Password for 'https://GianniniMatteo03@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GianniniMatteo03/pss-lab04.git/'
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+To https://github.com/GianniniMatteo03/pss-lab04.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/GianniniMatteo03/pss-lab04.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 9 (delta 3), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 561 bytes | 9.00 KiB/s, done.
+From https://github.com/GianniniMatteo03/pss-lab04
+ * branch            master     -> FETCH_HEAD
+   abf65a3..8368db1  master     -> origin/master
+Merge made by the 'ort' strategy.
+ 02-interface-composition/src/main/java/it/unibo/Test.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push origin master
+Enumerating objects: 48, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (26/26), 2.10 KiB | 134.00 KiB/s, done.
+Total 26 (delta 11), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (11/11), completed with 5 local objects.
+To https://github.com/GianniniMatteo03/pss-lab04.git
+   8368db1..c461b69  master -> master
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+Everything up-to-date
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/README.md
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add ../00-qa/README.md
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../00-qa/README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master 494c5d8] Update build file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 501 bytes | 125.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/GianniniMatteo03/pss-lab04.git
+   c461b69..494c5d8  master -> master
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/build.gradle.kts
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add ../00-qa/build.gradle.kts
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../00-qa/build.gradle.kts
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master 4549038] Update build file
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 490 bytes | 163.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/GianniniMatteo03/pss-lab04.git
+   494c5d8..4549038  master -> master
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../00-qa/src/main/java/IT/UNIBO/qa/cat.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master 7e09bef] Update build file
+ 1 file changed, 21 insertions(+), 44 deletions(-)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 883 bytes | 110.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/GianniniMatteo03/pss-lab04.git
+   4549038..7e09bef  master -> master
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git add README.md
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git commit -m "Update build file"
+[master 887a7fa] Update build file
+ 1 file changed, 10 insertions(+)
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 628 bytes | 209.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/GianniniMatteo03/pss-lab04.git
+   7e09bef..887a7fa  master -> master
+
+C:\Users\Windows\Desktop\pss-lab04\01-encapsulation>

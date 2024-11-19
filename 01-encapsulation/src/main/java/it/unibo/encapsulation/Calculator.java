@@ -4,6 +4,7 @@ public class Calculator {
 
     private int operationsPerformed;
     private double lastResult;
+    private int prova;
 
     public Calculator() {
         this.operationsPerformed = 0;
